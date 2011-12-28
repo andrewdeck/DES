@@ -1,5 +1,0 @@
-Disclaimer: This is still a work in progress. I started this a while ago, then was introduced to sproutcore o_O.
-This is by no means an attempt to write an efficient DES implementation, but rather a practice in implementing a white-paper. (and learning Ruby at the same time).
-If it is not self evident, this is my first ruby project.
-
-I love information security, and I know that DES is about as secure as storing passwords in md5 hashes. But it was fun to write.
