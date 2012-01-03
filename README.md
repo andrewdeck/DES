@@ -10,11 +10,15 @@ DES is a symetric key algorithm, so both the parties need to have the same key t
 
 ## How?
 * Generate a key
-    `./des --keygen`
+    `./des.rb --keygen`
 * Encrypt a file
-    `./des --encrypt <filename> -key <filename>`
+    `./des.rb --encrypt <filename> -key <filename>`
 * Decrypt a file
-    `./des --decrypt <filename> -key <filename>`
+    `./des.rb --decrypt <filename> -key <filename>`
+
+## Who?
+
+Written by Andrew Deck. [@andrewdeck](http://twitter.com/andrewdeck)
 
 ## Resources
-[fips46-3.pdf](http://csrc.nist.gov/publications/fips/fips46-3/fips46-3.pdf)
+A link to the document that contains the specifications for DES. [fips46-3.pdf](http://csrc.nist.gov/publications/fips/fips46-3/fips46-3.pdf)
